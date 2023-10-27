@@ -5,9 +5,9 @@ import MentorBano from "./component/menotrBano/mentorBano";
 import { Circle } from "rc-progress";
 function App() {
   return (
-    <div>
-      hello
-      <MentorBano />
+    <div class="hlo;">
+   
+      <FeedbackForm  />
       
     </div>
   );

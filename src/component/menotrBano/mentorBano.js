@@ -28,8 +28,8 @@ function mentorBano() {
       
   return (
     <>
-      <div>
-        Become a Mentor
+      <div className='mentor'> 
+        <h1 className='ment'>Become a Mentor </h1>
       </div>
       <div style={{ margin: 20, height: 130, widows: 130, width: 200 }}>
         <Circle
@@ -40,7 +40,15 @@ function mentorBano() {
           strokeLinecap="square"
         />
       </div>
-      <div>
+      
+      
+      <div className='para'><p>Upload profile pic And videos</p>
+      <p>Add About. Past and Future</p>
+      <p>Add Education, Qualification And Jobs</p>
+      <p className='f'> Add atleast 4 Posts </p>
+      </div>
+      
+      <div className='cln '>
         You are One step away from becoming a Mentor... 
       </div>
       

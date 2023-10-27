@@ -33,13 +33,14 @@ function feedbackForm() {
         <div>
 
         <h1>Mentor Feedback Form</h1>
-        <h2>How Was Your Experience With Your Mentor</h2>
+        <h2>How Was Your Experience With</h2>
+        <h2> Your Mentor</h2>
         </div>
         <div>
 
       <StarRating/>
         </div>
-        <div >
+        <div className='what' >
             What Went Wrong
         </div>
     
@@ -47,15 +48,18 @@ function feedbackForm() {
             <MyComponent/>
         </div>
         <form>
-        <input
+        <input className='inp'
                                 style={{
-                                    border: "2px solid #108CFF",
+                                    border: "2px solid #3333",
                                     outline: "none",
-                                    width: "100%",
-                                    height: "100%",
+                                    width: "50%",
+                                    height: "100px",
                                     fontSize: "16px",
                                     fontWeight: "500",
                                     color: "black",
+                                    margin:"50px",
+                                    position:'relative',
+                                    left:"35px",
                                     backgroundColor: "transparent",
                                     padding: "10px",
                                 }}
@@ -81,7 +85,7 @@ function feedbackForm() {
                                     marginLeft: "10px",
                                 }}
                             >
-                                Add
+                                <div className='sub'>Submit </div>
                             </button>
         </form>
     </div>

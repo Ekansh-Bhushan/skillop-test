@@ -12,4 +12,10 @@ border: solid 0.5px;
     display:flex;
             flex-wrap: wrap;
             text-align: center;
+            align-items: center;
+            justify-content: center;
+         
+            width: 500px;
+            position: relative ;
+            left: 350px;
 }
